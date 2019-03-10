@@ -1,6 +1,9 @@
 {
   "name": "reasonably-static",
   "version": "0.0.1",
+  "bin": {
+    "rrs": "./src/index.js"
+  },
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
