@@ -1,0 +1,29 @@
+{
+  "name": "reasonably-static",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.6"
+  },
+  "description": "ReasonReact static-site generator",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SeaMonster-Studios/reasonably-static.git"
+  },
+  "keywords": [
+    "reasonml",
+    "static site generator",
+    "reason react",
+    "BuckleScript"
+  ],
+  "author": "Logan Call",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeaMonster-Studios/reasonably-static/issues"
+  },
+  "homepage": "https://github.com/SeaMonster-Studios/reasonably-static#readme"
+}
